@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgimage{
+    background-image: url('banner-1.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+}
+.leftmenu{
+    width: 25%;
+    line-height: 80px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 70px;
+    font-weight: bold;
+    color: gray;
+    font-size: 22px;
+    
+
+}
+.rightmenu{
+    width: 70%;
+    height: 50px;
+    float: right;
+    padding: 20px;
+
+}
+.rightmenu ul{
+    margin-left: 200px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    color: teal;
+    font-weight: bold;
+    list-style: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.rightmenu ul li:hover{
+    color:tan;
+}
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    text-align: center;
+    color: wheat;
+}
+.text h4{
+    font-size: 20px;
+    font-family: 'open sans', sans-serif;
+}
+.text h1{
+    font-size: 60px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 200px;
+    margin: 10px 0px;
+}
+.text h3{
+    font-size: 12px;
+    font-family: 'open sans', sans-serif;
+}
+#buttonone{
+    background-color:white;
+    border: chartreuse;
+    font-size: 12px;
+    font-family: 'open sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid black;
+
+}
+#buttontwo{
+    background-color: transparent;
+    border: none;
+    font-family: 'open sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    border: 3px solid white;
+    width: 150px;
+
+}
+.mid h1{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 40px;
+    border: 3px solid burlywood;
+}
+.mid p {
+    margin: 18px 0;
+    text-align: center;
+}
+.input-group{
+    position: midel;
+    top: 80%;
+    left: 90%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    border: black;
+    background-origin: padding-box;
+}
+.form-centrol{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    float: left;
+    width: 50%;
+    background: white;
+}
+. button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+}
+.form-centrol{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+/*features*/
+.features{
+    padding: 50px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.feature-img img{
+    width: 30%;
+}
